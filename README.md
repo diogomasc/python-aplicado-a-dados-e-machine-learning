@@ -20,7 +20,7 @@ Este repositório é dedicado ao estudo e aprofundamento na linguagem Python, co
 1. **Clone o repositório** e entre na pasta do projeto:
 
    ```bash
-   git clone
+   git clone https://github.com/diogomasc/python-aplicado-a-dados-e-machine-learning.git
    cd python-aplicado-a-dados-e-machine-learning
    ```
 
