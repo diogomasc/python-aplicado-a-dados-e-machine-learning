@@ -61,7 +61,8 @@ env.bak/
 venv.bak/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 profile_default/
 ipython_config.py
 
@@ -72,11 +73,10 @@ ipython_config.py
 *.swo
 
 # Data Science / Machine Learning / Data files
-# Descomente / adicione extensões se for trabalhar com arquivos pesados de dados locais
+# Arquivos de dados pesados – não versionar no git
 *.csv
 *.tsv
 *.dat
-*.json
 *.h5
 *.hdf5
 *.parquet
@@ -84,9 +84,35 @@ ipython_config.py
 *.pkl
 *.pickle
 *.joblib
+
+# Modelos e checkpoints treinados
 *.pt
 *.pth
 *.onnx
+*.safetensors
+*.bin
+
+# JSON de dados (não notebooks – .ipynb são JSON mas tratados separadamente)
+data/*.json
+Datasets/*.json
+
+# Logs e artefatos de treino
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+outputs/
+*.log
+tensorboard/
+
+# Arquivos de modelo grandes
+*.tar.gz
+*.zip
+
+# Dados brutos de datasets
+Datasets/
+data/
 
 # OS generated files
 .DS_Store

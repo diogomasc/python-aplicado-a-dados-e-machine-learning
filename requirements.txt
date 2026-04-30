@@ -1,0 +1,33 @@
+# ============================================================
+# Dependências do projeto: python-aplicado-a-dados-e-machine-learning
+# Python >= 3.12
+# Gerado a partir dos imports de todos os notebooks em 2026-04-30
+# ============================================================
+
+# --- Core científico ---
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+
+# --- Machine Learning & Deep Learning ---
+scikit-learn
+torch
+torchvision
+
+# --- Graph Neural Networks ---
+torch-geometric
+networkx
+
+# --- Química / Bioinformática ---
+rdkit
+
+# --- Visão Computacional / Media ---
+Pillow
+moviepy
+
+# --- Utilitários de notebook ---
+IPython
+jupyter
+ipykernel
